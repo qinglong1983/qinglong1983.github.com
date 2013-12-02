@@ -1,229 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE HTML>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset=utf-8" />
 <meta name="baidu-site-verification" content="skwDtD8hTh1PHraw" />
-<title>sanguohelp</title>
+<meta content="" name="keywords" />
 <meta name="Copyright" content="" />
 <meta name="description" content="" />
-<meta content="" name="keywords" />
-
-<!--[if lt IE 9]>
-
-        <script >
-
-		/*
-		 HTML5 Shiv v3.6.2pre | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
-		 Uncompressed source: https://github.com/aFarkas/html5shiv
-		*/
-		(function(l,f){function m(){var a=e.elements;return"string"==typeof a?a.split(" "):a}function i(a){var b=n[a[o]];b||(b={},h++,a[o]=h,n[h]=b);return b}function p(a,b,c){b||(b=f);if(g)return b.createElement(a);c||(c=i(b));b=c.cache[a]?c.cache[a].cloneNode():r.test(a)?(c.cache[a]=c.createElem(a)).cloneNode():c.createElem(a);return b.canHaveChildren&&!s.test(a)?c.frag.appendChild(b):b}function t(a,b){if(!b.cache)b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag();
-		a.createElement=function(c){return!e.shivMethods?b.createElem(c):p(c,a,b)};a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+m().join().replace(/\w+/g,function(a){b.createElem(a);b.frag.createElement(a);return'c("'+a+'")'})+");return n}")(e,b.frag)}function q(a){a||(a=f);var b=i(a);if(e.shivCSS&&!j&&!b.hasCSS){var c,d=a;c=d.createElement("p");d=d.getElementsByTagName("head")[0]||d.documentElement;c.innerHTML="x<style>article,aside,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}</style>";
-		c=d.insertBefore(c.lastChild,d.firstChild);b.hasCSS=!!c}g||t(a,b);return a}var k=l.html5||{},s=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,r=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,j,o="_html5shiv",h=0,n={},g;(function(){try{var a=f.createElement("a");a.innerHTML="<xyz></xyz>";j="hidden"in a;var b;if(!(b=1==a.childNodes.length)){f.createElement("a");var c=f.createDocumentFragment();b="undefined"==typeof c.cloneNode||
-		"undefined"==typeof c.createDocumentFragment||"undefined"==typeof c.createElement}g=b}catch(d){g=j=!0}})();var e={elements:k.elements||"abbr article aside audio bdi canvas data datalist details figcaption figure footer header hgroup main mark meter nav output progress section summary time video",version:"3.6.2pre",shivCSS:!1!==k.shivCSS,supportsUnknownElements:g,shivMethods:!1!==k.shivMethods,type:"default",shivDocument:q,createElement:p,createDocumentFragment:function(a,b){a||(a=f);if(g)return a.createDocumentFragment();
-		for(var b=b||i(a),c=b.frag.cloneNode(),d=0,e=m(),h=e.length;d<h;d++)c.createElement(e[d]);return c}};l.html5=e;q(f)})(this,document);
-
-        </script>
-
-    <![endif]-->    
-
-    <style>
-
-        
-
-        body{
-
-            background: #EFEFEF ;
-
-            width: 1000px;
-
-            margin: 0 auto;
-
-            font-family: Arial, Helvetica;
-
-            font-size: 10pt;
-
-        }
-
-        a{
-			text-decoration: none;
-			color: #888;
-		}
-		a:hover{ color:#000;}
-
-        nav  {
-
-            display: block;
-
-            width: 100%;
-
-            overflow: hidden;
-
-        }
-
-        
-
-        nav ul {
-
-            margin: 10px 0 20px 0;
-
-            padding: .7em;
-
-            float: left;
-
-            list-style: none;
-
-            background: #FFF;
-
-            
-
-        }
-
-        
-
-        nav li {
-
-            float:left;
-
-        }
-
-        
-
-        nav a {
-
-            float:left;
-
-            padding: .8em 1.5em;
-
-            text-decoration: none;
-
-            color: #fff;
-
-            text-shadow: 0 1px 0 rgba(255,255,255,.5);
-
-            font: bold 1.1em/1 'trebuchet MS', Arial, Helvetica;
-
-            letter-spacing: 1px;
-
-            text-transform: uppercase;
-
-           
-
-            
-
-            background: #4CBE77;
-
-                   
-
-         }
-
-         
-
-        nav a:hover, nav a:focus {
-
-            outline: 0;
-
-            color: #fff;
-
-            text-shadow: 0 1px 0 rgba(0,0,0,.2);
-
-            background: #BD4B76;
-
-           
-
-        }
-
-        
-
-        nav a:active {
-
-            -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
-
-            -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
-
-            box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
-
-        }
-
-         
-
-        nav li:first-child a {
-
-            border-left: 0;
-
-            -moz-border-radius: 4px 0 0 4px;
-
-            -webkit-border-radius: 4px 0 0 4px;
-
-            border-radius: 4px 0 0 4px;            
-
-        }
-
-        
-
-        nav li:last-child a {
-
-            border-right: 0;
-
-            -moz-border-radius: 0 4px 4px 0;
-
-            -webkit-border-radius: 0 4px 4px 0;
-
-            border-radius: 0 4px 4px 0;            
-
-        }
-
-        
-
-        /*----------------------*/
-
-        
-
-        #about
-
-        {
-
-            color: #999;
-
-            text-align: center;
-
-        }
-
-        
-
-        #about a
-
-        {
-
-            color: #eee;
-
-        } 
-
-    </style>
-
+<title>sanguohelp</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"></link>
+<script src="js/template.js"></script>
 </head>
-
-
-
 <body>
 <nav>
-
-    <ul>
-
-        <li><a href="">Home</a></li>
-        <li><a href="">Linux</a></li>
-        <li><a href="">Windows</a></li>
-        <li><a href="">Flash</a></li>
-        <li><a href="">Ngnix</a></li>
-		<li><a href="">Mysql</a></li>
-		<li><a href="">NetWork</a></li>
-		<li><a href="">OS</a></li>
-        <li><a href="">About</a></li>	
-
-    </ul>
-
+<div id="head">
+	<div id="logo_title">
+		<h1>SanguoHelp</h1>
+		<h2>三国帮</h2>
+	</div>
+	<div id="navi"></div>
+	<script id="test" type="text/html">
+	<ul>
+		<% for (var i = 0; i < list.length; i ++) { %>
+			<li><a href=""><%= list[i] %></a></li>
+		<% } %>
+	</ul>
+	</script>
+	
+	<div class="clear"></div>
+</div>
+    
 </nav>
-
-Flash
+<div id= "wrapper">
+	<div class="main"></div>
+	<div class="side">
+		Flash
 <ul>
 	<li>
 		<a href="http://www.hsharma.com/">starling Tutorials</a>
@@ -358,13 +168,29 @@ Open Source
   </li>
 
 </ul>
-<script type="text/javascript">
+	</div>
+	
+	<div class="clear"></div>
+</div>
+
+
+
+<script>
+var data = {
+	title: '基本例子',
+	isAdmin: true,
+	list: ['文艺', '博客', '摄影', '电影', '民谣', '旅行', '吉他']
+};
+var html = template.render('test', data);
+document.getElementById('navi').innerHTML = html;
+
+var url_list = {
+	list: [{url:'http://www.oschina.net',title:'文艺'}, {url:'http://www.oschina.net',title:'文艺'}]
+}
+var html = template.render('url', url_list);
+document.getElementById('url_template').innerHTML = html;
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F124cc1317f7fbb66bf1488c186567ed0' type='text/javascript'%3E%3C/script%3E"));
+doc
 </script>
-       
-
-
-
 </body>
 </html>

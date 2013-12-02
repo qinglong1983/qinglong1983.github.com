@@ -1,0 +1,70 @@
+body{
+	font-family:'Helvetica Neue', Arila, 'Liberation sans', FreeSans, 'Hiragino Sans GB', sans-serif;
+	background-image: url(../img/bg.png);
+}
+.clear{
+	clear:both;
+}
+#head{
+	width:960px;
+	height:100px;
+	
+	margin:auto;
+}
+
+#wrapper{
+	margin:auto;
+	background-color:green;
+	width:960px;
+	
+}
+
+.main{
+	width:660px;
+	height:450px;
+	background-color:white;
+	float:left;
+}
+
+.side{
+	width:300px;
+	float:right;
+}
+
+#logo_title{
+	color:black;
+	float:left;
+}
+#logo_title h1{
+	font-size:24px;
+}
+
+#logo_title h2{
+	font-size:14px;
+}
+#navi{
+	float:right;
+}
+
+#navi ul{
+	List-style:none;
+}
+#navi ul li{
+	display:inline-block;
+	margin-right:0px;
+}
+
+#navi ul li a{
+	color:black;
+	border: solid 1px white;
+	padding: 4px;
+	padding-left: 14px;
+	padding-right:14px;
+	border-radius:4px;
+	
+}
+
+
+
+
+
