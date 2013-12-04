@@ -14,8 +14,8 @@
 <nav>
 <div id="head">
 	<div id="logo_title">
-		<h1>SanguoHelp</h1>
-		<h2>三国帮</h2>
+		<h1>木星青龙的小站</h1>
+		<h2>记录程序员道路上的点点滴滴</h2>
 	</div>
 	<div id="navi"></div>
 	<script id="test" type="text/html">
@@ -33,37 +33,15 @@
 <div id= "wrapper">
 	<div class="main"></div>
 	<div class="side">
-		Flash
-<ul>
-	<li>
-		<a href="http://www.hsharma.com/">starling Tutorials</a>
-	</li>
-</ul>
 
-UI Design 
-<ul> 
-  <li>
-  	<a href="http://dribbble.com/">dribbble.com</a>
-  </li>
-  <li>
-    <a href="http://naldzgraphics.net/">naldzgraphics.net</a>
-  </li>
-  <li>
-    <a href="http://designmodo.com/">designmodo.com</a>
-  </li>
-  <li>
-    <a href="http://www.chinaui.com/">www.chinaui.com</a>
-  </li>
-  <li>
-    <a href="http://www.uimaker.com/">www.uimaker.com</a>
-  </li>
-  <li>
-    <a href="http://cdc.tencent.com/">cdc.tencent.com</a>
-  </li>
-  <li>
-    <a href="http://uedc.163.com/">uedc.163.com</a>
-  </li>
-</ul>
+<div id="favLink"></div>
+	<script id="favLinkList" type="text/html">
+	<ul>
+		<% for (var i = 0; i < list.length; i ++) { %>
+			<li><a href="<%= list[i].url %>"><%= list[i].title %></a></li>
+		<% } %>
+	</ul>
+	</script>
 PSD Download
 <ul>
   <li>
@@ -185,12 +163,16 @@ var html = template.render('test', data);
 document.getElementById('navi').innerHTML = html;
 
 var url_list = {
-	list: [{url:'http://www.oschina.net',title:'文艺'}, {url:'http://www.oschina.net',title:'文艺'}]
+	list: [{url:'http://www.hsharma.com',title:'starling教程'}, {url:'http://dribbble.com/',title:'dribbble'},
+	{url:'http://naldzgraphics.net',title:'naldzgraphics'}, {url:'http://designmodo.com',title:'designmodo'},
+	{url:'http://designmodo.com',title:'designmodo'}, {url:'http://www.chinaui.com',title:'chinaui'},
+	{url:'http://www.uimaker.com',title:'uimaker'}, {url:'http://cdc.tencent.com',title:'cdc.tencent.com'},
+	{url:'uedc.163.com',title:'uedc.163.com'}, 
+	]
 }
-var html = template.render('url', url_list);
-document.getElementById('url_template').innerHTML = html;
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-doc
+var html = template.render('favLinkList', url_list);
+document.getElementById('favLink').innerHTML = html;
+
 </script>
 </body>
 </html>
