@@ -1,0 +1,183 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset=utf-8" />
+<meta name="baidu-site-verification" content="skwDtD8hTh1PHraw" />
+<meta content="" name="keywords" />
+<meta name="Copyright" content="" />
+<meta name="description" content="" />
+<title>sanguohelp</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"></link>
+<script src="js/template.js"></script>
+</head>
+<body>
+<nav>
+<div id="head">
+	<div id="logo_title">
+		<h1><img src="img/logo.gif" style="vertical-align:baseline"></img>叶子的小站</h1>
+		<h2>记录插画师道路上的点点滴滴</h2>
+	</div>
+	<div id="navi"></div>
+	<script id="test" type="text/html">
+	<ul>
+		<% for (var i = 0; i < list.length; i ++) { %>
+			<li><a href=""><%= list[i] %></a></li>
+		<% } %>
+	</ul>
+	</script>
+	
+	<div class="clear"></div>
+</div>
+    
+</nav>
+<div id= "wrapper">
+	<div class="main">
+	<img src="img/mm1.jpg"></img>
+	<img src="img/mm2.jpg"></img>
+	<img src="img/mm3.jpg"></img>
+	<img src="img/mm4.jpg"></img>
+	</div>
+	<div class="side">
+
+<div id="favLink"></div>
+	<script id="favLinkList" type="text/html">
+	<ul>
+		<% for (var i = 0; i < list.length; i ++) { %>
+			<li><a href="<%= list[i].url %>"><%= list[i].title %></a></li>
+		<% } %>
+	</ul>
+	</script>
+PSD Download
+<ul>
+  <li>
+    <a href="http://psd.goodfav.com/">psd.goodfav.com</a>
+  </li>
+</ul>
+HTML5 & CSS & JS
+<ul>
+  <li>
+    <a href="http://www.jsdo.it/">jsdoit</a>
+  </li>
+  <li>
+    <a href="http://learning.artech.cn/">learning.artech.cn</a>
+  </li>
+  <li>
+  	<a href="http://slidesjs.com/">slidesjs.com</a>
+  </li>
+  <li>
+  	<a href="http://learning.artech.cn/">learning.artech.cn</a>
+  </li>
+  <li>
+  	<a href="http://www.w3cn.org/index.html">www.w3cn.org</a>
+  </li>
+  <li>
+  	<a href="http://pnggauntlet.com/">PNG优化工具pnggauntlet.com</a>
+  </li>
+  <li>
+  	<a href="http://livereload.com/">livereload.com</a>
+  </li>
+  <li>
+  	<a href="http://www.alloyteam.com/">www.alloyteam.com</a>
+  </li>
+  
+</ul>
+OS Design
+<ul>
+  <li>
+    <a href="http://tomos.sourceforge.net/">tomos.sourceforge.net</a>
+  </li>
+  <li>
+    <a href="http://mikeos.berlios.de/">mikeos.berlios.de</a>
+  </li>
+  <li>
+    <a href="http://www.returninfinity.com/baremetal.html">www.returninfinity.com</a>
+  </li>
+  <li>
+    <a href="http://wiki.osdev.org/Main_Page">wiki.osdev.org</a>
+  </li>
+  <li>
+    <a href="http://www.jamesmolloy.co.uk/tutorial_html/index.html">www.jamesmolloy.co.uk</a>
+  </li>
+  <li>
+	<a href = "http://osask.net/">osask.net</a>
+  </li>
+  <li>
+	<a href = "http://code.google.com/p/micron/">code.google.com/p/micron</a>
+  </li>
+  <li>
+     <a href = "http://www.menuetos.net/">www.menuetos.net</a>
+   </li>
+   <li>
+       <a href = "http://www.freenos.org/">www.freenos.org</a>
+   </li>
+   
+   <li>
+	   <a href = "http://www.reactos.org/zh/index.html">ReactOS</a>
+   </li>
+</ul>
+OS TOOL
+<ul>
+<li>
+<a href = "http://nasm.us/" > nasm.us </a>
+</li>
+<li>
+<a href = "http://wiki.qemu.org/Main_Page"> wiki.qemu.org </a>
+</li>
+<li>
+<a href = "http://board.flatassembler.net/index.php">board.flatassembler.net</a>
+</li>
+</ul>
+
+windows 
+<ul>
+	<li>
+		<a href="http://www.relisoft.com/win32/winnie.html">www.relisoft.com</a>
+	</li>
+	<li>
+		<a href="http://www.codeproject.com">www.codeproject.com</a>
+	</li>
+	<li>
+		<a href="http://www.vckbase.com">www.vckbase.com</a>
+	</li>
+</ul>
+
+Open Source
+<ul>
+  <li>
+    <a href="http://www.oschina.net">www.oschina.net</a>
+  </li>
+  <li>
+    <a href="http://www.csdn.net">www.csdn.net</a>
+  </li>
+
+</ul>
+	</div>
+	
+	<div class="clear"></div>
+</div>
+
+
+
+<script>
+var data = {
+	title: '基本例子',
+	isAdmin: true,
+	list: ['文艺', '博客', '摄影', '电影', '民谣', '旅行', '吉他']
+};
+var html = template.render('test', data);
+document.getElementById('navi').innerHTML = html;
+
+var url_list = {
+	list: [{url:'http://www.hsharma.com',title:'starling教程'}, {url:'http://dribbble.com/',title:'dribbble'},
+	{url:'http://naldzgraphics.net',title:'naldzgraphics'}, {url:'http://designmodo.com',title:'designmodo'},
+	{url:'http://designmodo.com',title:'designmodo'}, {url:'http://www.chinaui.com',title:'chinaui'},
+	{url:'http://www.uimaker.com',title:'uimaker'}, {url:'http://cdc.tencent.com',title:'cdc.tencent.com'},
+	{url:'uedc.163.com',title:'uedc.163.com'}, 
+	]
+}
+var html = template.render('favLinkList', url_list);
+document.getElementById('favLink').innerHTML = html;
+
+</script>
+</body>
+</html>
