@@ -24,6 +24,11 @@ var navMenuData = {
             "title": "首页",
 			"class": "current"
         },
+		{
+            "url": "#",
+            "title": "大学奖项",
+			"class": "none"
+        },
         {
             "url": "#",
             "title": "助学贷款",

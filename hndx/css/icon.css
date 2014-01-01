@@ -1,0 +1,26 @@
+.icon
+{
+    background: url(../img/tabicons.png) no-repeat;
+    width: 18px;
+    line-height: 18px;
+    display: inline-block;
+}
+.icon-set
+{
+ background-position: -380px -200px;
+}
+
+.icon-add
+{
+ background-position: -20px 0px;
+}
+
+.icon-work
+{
+	background-position: -380px -80px;
+}
+
+.icon-work-file
+{
+	background-position: -160px -160px;
+}
