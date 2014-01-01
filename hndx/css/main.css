@@ -1,0 +1,184 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, address, big, cite, code, del, em, 
+font, img, ins, small, strong, var, b, u, i, center, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend 
+{
+	margin: 0;
+	padding: 0;
+}
+div {
+display: block;
+}
+
+body{
+	font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+	color: #666;
+}
+#topNav{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	line-height: 30px;
+	height: 30px;
+	background: #F7F7F7;
+	margin:0;
+}
+
+#topNav #date{
+	float:left;
+}
+#topNavMenu{
+	float:right;
+}
+
+#topNavMenu li
+{
+	display:inline;
+}
+#head{
+	color:#000000;
+	height:60px;
+	background-image:url(../img/logo.png);
+	background-repeat:no-repeat;
+	width: 990px;
+	margin: 0 auto;
+}
+#navMenu
+{
+	width: 990px;
+	margin: 0 auto;
+}
+
+#navMenu ul li{
+	display:inline-block;
+	margin-bottom:0px;
+}
+
+#navMenu ul li a{
+	color:#000000;
+	line-height:40px;
+	padding:8px;
+	text-decoration:none;
+}
+
+#navMenu ul .current  a {
+	color:white;
+	background-color:#DE2E63;
+	line-height:40px;
+	padding:8px;
+	text-decoration:none;
+}
+
+
+
+#navMenu  a:hover{
+	color:black;
+	background-color:#FFFF00;
+	text-decoration:none;
+	line-height:40px;
+	padding:8px;
+}
+#navMenu ul .current  a:hover{
+	color:black;
+	background-color:#FFFF00;
+	text-decoration:none;
+	line-height:40px;
+	padding:8px;
+}
+
+#articlePanel{
+	width: 990px;
+	margin: 0 auto;
+}
+
+#slideWrapper{
+	width: 990px;
+	margin: 0 auto;
+}
+
+#slideList{
+	float:left;
+	margin-right:33px;
+}
+
+#workingTrends{
+	width:300px;
+	height:295px;
+	border: 1px solid #E7E7E7;
+	float:left;
+	margin-right:15px;
+	margin-bottom:15px;
+	background-color:white;
+}
+#workingTrends ul
+{
+	margin:10px;
+	list-style: none;
+}
+
+
+#workingTrends ul li a{
+	color:#6a6a6a;
+	text-decoration:none;
+}
+
+#workingTrends ul li a:hover{
+	color:white;
+	background:#38A50E;
+	text-decoration:none;
+	display:block;
+}
+
+
+
+.articleList
+{
+	width:300px;
+	height:250px;
+	border: 1px solid #E7E7E7;
+	float:left;
+	margin-right:15px;
+	margin-bottom:15px;
+	background-color:white;
+}
+.articleList ul
+{
+	margin:10px;
+	list-style: none;
+}
+
+
+.articleList ul li a{
+	color:#6a6a6a;
+	text-decoration:none;
+}
+
+.articleList ul li a:hover{
+	color:white;
+	background:#38A50E;
+	text-decoration:none;
+	display:block;
+}
+
+.articleTitle
+{
+	line-height:40px;
+	background-color:#F7F7F7;
+	display:block;
+	padding-left:20px;
+	color:#1868B1;
+	font-weight:bold;
+	display:block;
+}
+
+.clear{
+	clear:both;
+}
+
+#foot
+{
+	height:30px;
+	border-top: 1px solid #eee;
+	line-height: 30px;
+	text-align:center;
+	background: #F7F7F7;
+}
