@@ -8,7 +8,7 @@
 <title>首页 - 湖南大学资助管理系统</title>
 <link rel="stylesheet" href="css/main.css?v=131229.1158" type="text/css" media="screen" />
 <link rel="stylesheet" type="text/css" href="css/lrtk.css" />
-<link rel="stylesheet" type="text/css" href="css/icon.css" />
+<link rel="stylesheet" type="text/css" href="css/icon.css?v=1" />
 <script src="js/template.js" type="text/javascript"></script>
 <script src="js/common/navMenu.js?v=1" type="text/javascript"></script>
 <script src="js/common/articleMenu.js" type="text/javascript"></script>
@@ -80,11 +80,11 @@
 
 <div id="guide" class="articleList"></div>
 <script id="guideList" type="text/html">
-	<span class="articleTitle"><span class="icon icon-set">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;<%=title%></span>
+	<span class="articleTitle"><span class="icon icon-guide">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;<%=title%></span>
 	<ul>
 		<% for (var i = 0; i < list.length; i ++) { %>
 			<li>
-			<a href="<%=list[i].url%>"><span class="icon icon-work-file">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><%= list[i].title %></a>
+			<a href="<%=list[i].url%>"><span class="icon icon-guide-item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><%= list[i].title %></a>
 			</li>
 		<% } %>
 		<a href="#">更多</a>
@@ -168,7 +168,6 @@
 </div>
 
 <script>
-
 menuRender('topNavMenu', 'topNavMenuList', topMenuData);
 menuRender('navMenu', 'navMenuList', navMenuData);
 menuRender('workingTrends', 'workingTrendsList', workingTrendsData);
@@ -178,9 +177,6 @@ menuRender('notice', 'noticeList', noticeData);
 menuRender('fileDownload', 'fileDownloadList', fileDownloadData);
 menuRender('qa', 'qaList', qaData);
 menuRender('wanted', 'wantedList', wantedData);
-
-
-
 </script>
 </body>
 </html>
