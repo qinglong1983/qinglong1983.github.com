@@ -128,17 +128,24 @@ body{
 	display:block;
 }
 
-
+.double-line {
+font-size: 0;
+line-height: 0;
+height: 0;
+border-top: 1px solid #d8d8d8;
+border-bottom: 1px solid #fff;
+}
 
 .articleList
 {
 	width:300px;
 	height:250px;
-	border: 1px solid #E7E7E7;
 	float:left;
 	margin-right:15px;
 	margin-bottom:15px;
-	background-color:white;
+	background-color:#5DC9E6;
+	border-radius:16px;
+	
 }
 .articleList ul
 {
@@ -148,12 +155,13 @@ body{
 
 
 .articleList ul li a{
-	color:#6a6a6a;
+	color:white;
+	
 	text-decoration:none;
 }
 
 .articleList ul li a:hover{
-	color:white;
+	color:#000000;
 	background:#38A50E;
 	text-decoration:none;
 	display:block;
@@ -168,6 +176,7 @@ body{
 	color:#1868B1;
 	font-weight:bold;
 	display:block;
+	border-bottom: 1px solid #E7E7E7;
 }
 
 .clear{
